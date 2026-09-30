@@ -13,7 +13,7 @@ def read_json(path):
 
 
 def load_templates():
-    return read_json(ROOT / "data" / "recommendation_templates.json")
+    return read_json(ROOT / "recommendation_templates.json")
 
 
 def validate_result(result, templates, opportunity_ids):
