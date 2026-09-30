@@ -1,0 +1,518 @@
+{
+  "metadata": {
+    "scope_note": "Dataset kurasi web; setiap peluang memiliki tautan sumber dan statusnya perlu diperiksa kembali."
+  },
+  "opportunities": [
+    {
+      "id": "JOB-01",
+      "name": "IT Engineer BCA",
+      "provider": "PT Bank Central Asia Tbk",
+      "category": "Job",
+      "target_goals": [
+        "Software/IT"
+      ],
+      "education_status_required": "Bachelor degree",
+      "minimum_gpa": 2.75,
+      "accepted_major_groups": [
+        "Information Technology",
+        "Information Systems",
+        "Computer Engineering",
+        "Statistics",
+        "Physics",
+        "Mathematics",
+        "Industrial Engineering",
+        "Mechanical Engineering",
+        "Electrical Engineering"
+      ],
+      "required_skills": [],
+      "preferred_experience": "IT work experience is an advantage",
+      "other_requirements": [
+        "Basic knowledge and interest in IT"
+      ],
+      "application_period": "18 October 2025 - 23 December 2026",
+      "source_url": "https://karir.bca.co.id/candidate/id/career/it-engineer",
+      "source_type": "Official BCA careers page",
+      "prototype_note": "Requirements without a corresponding user input are displayed as items that must be checked manually."
+    },
+    {
+      "id": "MASTER-01",
+      "name": "Magister Kecerdasan Artifisial UGM",
+      "provider": "Universitas Gadjah Mada",
+      "category": "Master's Program",
+      "target_goals": [
+        "Data Scientist",
+        "Researcher",
+        "Software/IT"
+      ],
+      "education_status_required": "Completed bachelor degree or equivalent",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "A relevant or related accredited bachelor program, subject to program approval"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Bachelor degree certificate",
+        "Academic transcript",
+        "Accreditation evidence",
+        "Valid academic potential test certificate",
+        "Valid English proficiency certificate",
+        "Study projection or statement of purpose",
+        "Two recommendations",
+        "Research proposal or other program-specific document when required"
+      ],
+      "application_period": "Batch 2: 29 September - 20 October 2026; later batches are also listed by the program",
+      "source_url": "https://dcse.fmipa.ugm.ac.id/mka/mka-prosedur/",
+      "source_type": "Official UGM department admissions page",
+      "prototype_note": "The prototype checks education status, English certificate, and document readiness. Program-specific approval remains a manual check."
+    },
+    {
+      "id": "SCHOLARSHIP-01",
+      "name": "Beasiswa LPDP STEM Industri Strategis 2026 - Magister",
+      "provider": "Lembaga Pengelola Dana Pendidikan",
+      "category": "Scholarship",
+      "target_goals": [
+        "Data Scientist",
+        "Researcher",
+        "Software/IT"
+      ],
+      "education_status_required": "Completed D4 or bachelor degree for master's funding",
+      "minimum_gpa": 3.0,
+      "maximum_age": 35,
+      "required_skills": [],
+      "required_documents": [
+        "Academic transcript",
+        "Valid English proficiency certificate",
+        "Documents required in the LPDP application system"
+      ],
+      "language_requirement_summary": "For a domestic master's under the general criteria, examples include TOEFL ITP 500, TOEFL iBT 61, PTE Academic 50, IELTS 6.0, Duolingo English Test 105, or TOEP 500. Other applicant categories may have different rules.",
+      "funding_duration": "Master's funding up to 24 months",
+      "source_url": "https://lpdp.kemenkeu.go.id/beasiswa/beasiswa-stem-industri-strategis/industri-strategis/",
+      "source_type": "Official LPDP scholarship page",
+      "prototype_note": "The prototype stores a simplified subset of the general master's requirements. Applicant category and destination-specific rules must be checked on the official page."
+    },
+    {
+      "id": "WEB-DATA-01",
+      "name": "Data Analyst",
+      "provider": "PT Metrodata Electronics Tbk",
+      "category": "Job",
+      "target_goals": [
+        "Data Analyst"
+      ],
+      "education_status_required": "Bachelor's degree in Computer Science, IT, Mathematics, Statistics, or a related field",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Computing",
+        "Science",
+        "Engineering",
+        "Other STEM"
+      ],
+      "required_skills": [
+        "SQL",
+        "Statistics",
+        "Data Visualization"
+      ],
+      "required_documents": [
+        "CV"
+      ],
+      "preferred_experience": "The listing mentions three years of related experience",
+      "application_period": "Listing observed on 29 September 2026; check the page for current status",
+      "source_url": "https://id.linkedin.com/jobs/view/data-analyst-at-pt-metrodata-electronics-tbk-4462998123",
+      "source_type": "Public LinkedIn job page",
+      "prototype_note": "This is a real web listing, not a fictional opportunity. Availability may change."
+    },
+    {
+      "id": "WEB-DS-01",
+      "name": "Jr. Data Scientist",
+      "provider": "ilmuOne Data",
+      "category": "Job",
+      "target_goals": [
+        "Data Scientist"
+      ],
+      "education_status_required": "Fresh graduates are welcome to apply",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Computing",
+        "Science",
+        "Engineering",
+        "Other STEM"
+      ],
+      "required_skills": [
+        "Python",
+        "SQL",
+        "Statistics",
+        "Data Visualization"
+      ],
+      "required_documents": [
+        "CV"
+      ],
+      "preferred_experience": "One to two years is mentioned, while fresh graduates are also welcomed",
+      "application_period": "Listing observed on 29 September 2026; check the page for current status",
+      "source_url": "https://id.linkedin.com/jobs/view/jr-data-scientist-at-ilmuone-data-4470954320",
+      "source_type": "Public LinkedIn job page",
+      "prototype_note": "This is a real web listing, not a fictional opportunity. Availability may change."
+    },
+    {
+      "id": "WEB-SWE-01",
+      "name": "Software Engineer Intern",
+      "provider": "Cermati Fintech Group",
+      "category": "Internship",
+      "target_goals": [
+        "Software/IT"
+      ],
+      "education_status_required": "Third-year or final-year student, or fresh graduate from a relevant computing major",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Computing",
+        "Engineering"
+      ],
+      "required_skills": [
+        "Python",
+        "SQL"
+      ],
+      "required_documents": [
+        "CV"
+      ],
+      "preferred_experience": "Python, Java, Node.js, SQL, data warehouse, and cloud exposure are listed as advantages",
+      "application_period": "Listing observed on 29 September 2026; check the page for current status",
+      "source_url": "https://id.linkedin.com/jobs/view/software-engineer-intern-at-cermati-fintech-group-4469903648",
+      "source_type": "Public LinkedIn job page",
+      "prototype_note": "This is a real web listing, not a fictional opportunity. Availability may change."
+    },
+    {
+      "id": "WEB-RES-01",
+      "name": "Researcher Intern",
+      "provider": "Djoin",
+      "category": "Internship",
+      "target_goals": [
+        "Researcher"
+      ],
+      "education_status_required": "Bachelor's degree in a relevant field",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [
+        "Statistics"
+      ],
+      "required_documents": [
+        "CV"
+      ],
+      "preferred_experience": "Less than one year",
+      "application_period": "Listing observed on 29 September 2026; check the page for current status",
+      "source_url": "https://glints.com/id/opportunities/jobs/researcher-intern/5fb25b53-3fb2-4f9a-964e-923464df6d99",
+      "source_type": "Public Glints job page",
+      "prototype_note": "This is a real web listing, not a fictional opportunity. Availability may change."
+    },
+    {
+      "id": "PORTAL-WHO-01",
+      "name": "WHO Global Careers — Data, Digital Health & Research",
+      "provider": "World Health Organization",
+      "category": "Job",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Requirements vary by vacancy",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "CV and documents requested by each vacancy"
+      ],
+      "preferred_experience": "Varies by vacancy",
+      "application_period": "Official vacancy portal; check current openings and deadlines",
+      "source_url": "https://careers.who.int/careersection/ex/jobsearch.ftl",
+      "source_type": "Official WHO careers portal"
+    },
+    {
+      "id": "PORTAL-EMBL-01",
+      "name": "EMBL & EMBL-EBI Career Opportunities",
+      "provider": "European Molecular Biology Laboratory",
+      "category": "Job",
+      "target_goals": [
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Requirements vary across jobs, internships, PhD programmes, and fellowships",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "CV and vacancy-specific documents"
+      ],
+      "preferred_experience": "Includes opportunities for different career stages",
+      "application_period": "Official careers portal; check current openings and deadlines",
+      "source_url": "https://www.embl.org/careers/",
+      "source_type": "Official EMBL careers portal"
+    },
+    {
+      "id": "PORTAL-SANGER-01",
+      "name": "Wellcome Sanger Institute Current Vacancies",
+      "provider": "Wellcome Sanger Institute",
+      "category": "Job",
+      "target_goals": [
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Requirements vary by vacancy",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Application form and CV when requested"
+      ],
+      "preferred_experience": "The portal includes scientific, informatics, technical, and early-career roles",
+      "application_period": "Official vacancy portal; check current openings and deadlines",
+      "source_url": "https://jobs.sanger.ac.uk/vacancies.html",
+      "source_type": "Official Wellcome Sanger Institute vacancy portal"
+    },
+    {
+      "id": "PORTAL-CERN-01",
+      "name": "CERN Careers — Software, Data & Engineering",
+      "provider": "CERN",
+      "category": "Job",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Requirements vary by programme and vacancy",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "CV and programme-specific documents"
+      ],
+      "preferred_experience": "Includes student, graduate, technical, software, and research opportunities",
+      "application_period": "Official careers portal; check current openings and deadlines",
+      "source_url": "https://careers.cern/",
+      "source_type": "Official CERN careers portal"
+    },
+    {
+      "id": "PORTAL-UNICEF-01",
+      "name": "UNICEF Global Vacancies — Data, IT & Research",
+      "provider": "UNICEF",
+      "category": "Job",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Requirements vary by vacancy",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Profile, CV, and vacancy-specific documents"
+      ],
+      "preferred_experience": "Includes consultancies, internships, national, and international roles",
+      "application_period": "Official vacancy portal; check current openings and deadlines",
+      "source_url": "https://jobs.unicef.org/",
+      "source_type": "Official UNICEF vacancy portal"
+    },
+    {
+      "id": "SCH-CHEVENING-01",
+      "name": "Chevening Scholarship — Indonesia",
+      "provider": "UK Government",
+      "category": "Scholarship",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Completed undergraduate degree and programme-specific eligibility",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Education documents",
+        "References",
+        "Essays and application documents"
+      ],
+      "preferred_experience": "Check the current eligibility criteria on the official country page",
+      "application_period": "2027–2028 applications listed as open until 6 October 2026, 11:00 UTC",
+      "source_url": "https://www.chevening.org/scholarship/indonesia/",
+      "source_type": "Official Chevening country page"
+    },
+    {
+      "id": "SCH-ERASMUS-01",
+      "name": "Erasmus Mundus Joint Masters",
+      "provider": "European Commission — Erasmus+",
+      "category": "Scholarship",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Bachelor's degree or recognised equivalent, subject to programme rules",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Academic documents and programme-specific application materials"
+      ],
+      "preferred_experience": "Eligibility and selection differ by joint master's programme",
+      "application_period": "Programme-specific; apply through the selected master's programme",
+      "source_url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
+      "source_type": "Official European Commission programme page"
+    },
+    {
+      "id": "SCH-DAAD-01",
+      "name": "DAAD Scholarship Database",
+      "provider": "German Academic Exchange Service",
+      "category": "Scholarship",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Requirements vary by scholarship programme",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Academic and programme-specific documents"
+      ],
+      "preferred_experience": "Use the database filters to find a suitable funding programme",
+      "application_period": "Varies by scholarship programme",
+      "source_url": "https://www.daad.de/stipdb-redirect/",
+      "source_type": "Official DAAD scholarship database"
+    },
+    {
+      "id": "SCH-MEXT-01",
+      "name": "MEXT Research Students Scholarship",
+      "provider": "Embassy of Japan in Indonesia",
+      "category": "Scholarship",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Bachelor's degree or equivalent according to the current guideline",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Application documents, recommendation, academic records, and health certificate"
+      ],
+      "preferred_experience": "Research plan and field suitability are important",
+      "application_period": "Check the 2027 Research Students schedule on the official embassy page",
+      "source_url": "https://www.id.emb-japan.go.jp/itpr_id/sch_rs.html",
+      "source_type": "Official Embassy of Japan in Indonesia page"
+    },
+    {
+      "id": "SCH-AAS-01",
+      "name": "Australia Awards Scholarships — Indonesia",
+      "provider": "Australian Government",
+      "category": "Scholarship",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Eligibility follows the current Indonesia country profile",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Academic, identity, English, and application documents"
+      ],
+      "preferred_experience": "Selection considers academic competence, professional qualities, and development impact",
+      "application_period": "Check the official Indonesia application page for the next intake",
+      "source_url": "https://www.australiaawardsindonesia.org/",
+      "source_type": "Official Australia Awards Indonesia page"
+    },
+    {
+      "id": "SCH-FULBRIGHT-01",
+      "name": "Fulbright Master's Degree Scholarship",
+      "provider": "AMINEF — Fulbright Indonesia",
+      "category": "Scholarship",
+      "target_goals": [
+        "Data Analyst",
+        "Data Scientist",
+        "Software/IT",
+        "Researcher"
+      ],
+      "education_status_required": "Indonesian citizen with a completed undergraduate degree and current programme eligibility",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "Science",
+        "Engineering",
+        "Computing",
+        "Other STEM"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Academic, English, recommendation, and application documents"
+      ],
+      "preferred_experience": "Academic ability and leadership potential are considered",
+      "application_period": "Check the official AMINEF page for the current cycle",
+      "source_url": "https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/scholarship/fulbright-masters-degree-scholarship/",
+      "source_type": "Official AMINEF scholarship page"
+    }
+  ]
+}

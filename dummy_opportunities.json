@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "project": "ArahKita",
+    "dataset_type": "dummy",
+    "scope_note": "Fictional records for demonstrating opportunity matching. These are not real vacancies, programs, or application links."
+  },
+  "opportunities": [
+    {
+      "id": "DUMMY-JOB-01",
+      "name": "Junior Data Analyst — Demo Role",
+      "provider": "ArahKita Demo Company",
+      "category": "Job",
+      "target_goals": ["Data Analyst"],
+      "education_status_required": "Final-year student or bachelor's graduate",
+      "minimum_gpa": 2.75,
+      "accepted_major_groups": ["Engineering", "Science", "Computing", "Other STEM"],
+      "required_skills": ["Excel", "SQL"],
+      "required_documents": ["CV", "Academic transcript", "Portfolio when available"],
+      "application_period": "Prototype only — no real application period",
+      "source_url": "",
+      "is_dummy": true,
+      "prototype_note": "Fictional job record created only to demonstrate matching for the Data Analyst path."
+    },
+    {
+      "id": "DUMMY-INT-01",
+      "name": "Data Analyst Internship — Demo Program",
+      "provider": "ArahKita Demo Lab",
+      "category": "Internship",
+      "target_goals": ["Data Analyst"],
+      "education_status_required": "Final-year student or fresh graduate",
+      "minimum_gpa": 2.75,
+      "accepted_major_groups": ["Engineering", "Science", "Computing", "Other STEM"],
+      "required_skills": ["Excel", "Python"],
+      "required_documents": ["CV", "Academic transcript"],
+      "application_period": "Prototype only — no real application period",
+      "source_url": "",
+      "is_dummy": true,
+      "prototype_note": "Fictional internship record created only to demonstrate preparation-path matching."
+    },
+    {
+      "id": "DUMMY-INT-02",
+      "name": "Data Science Internship — Demo Program",
+      "provider": "ArahKita Demo Lab",
+      "category": "Internship",
+      "target_goals": ["Data Scientist"],
+      "education_status_required": "Final-year student or fresh graduate",
+      "minimum_gpa": 3.0,
+      "accepted_major_groups": ["Engineering", "Science", "Computing", "Other STEM"],
+      "required_skills": ["Python", "Statistics"],
+      "required_documents": ["CV", "Academic transcript", "Portfolio when available"],
+      "application_period": "Prototype only — no real application period",
+      "source_url": "",
+      "is_dummy": true,
+      "prototype_note": "Fictional internship record created only to demonstrate matching for the Data Scientist path."
+    },
+    {
+      "id": "DUMMY-CERT-01",
+      "name": "Data & Technology Foundation — Demo Learning Program",
+      "provider": "ArahKita Demo Academy",
+      "category": "Certification",
+      "target_goals": [],
+      "education_status_required": "Open to final-year students and fresh graduates",
+      "minimum_gpa": null,
+      "accepted_major_groups": ["Engineering", "Science", "Computing", "Other STEM"],
+      "required_skills": [],
+      "required_documents": [],
+      "application_period": "Prototype only — no real application period",
+      "source_url": "",
+      "is_dummy": true,
+      "prototype_note": "Fictional learning record used as a generic starting point for skill preparation or career exploration."
+    }
+  ]
+}

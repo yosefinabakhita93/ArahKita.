@@ -1,0 +1,69 @@
+{
+  "RecommendWorkNow": {
+    "title": "Work Now",
+    "summary": "Your profile is ready enough to begin targeting entry-level opportunities.",
+    "next_steps": [
+      "Adjust your CV to the selected career goal",
+      "Compare your profile with the requirements of the selected opportunity",
+      "Submit applications to relevant entry-level roles"
+    ],
+    "limitation_note": "This recommendation indicates readiness to start applying and does not guarantee acceptance."
+  },
+  "RecommendWorkPreparation": {
+    "title": "Internship or Skill Preparation",
+    "summary": "You need a focused preparation step before pursuing the main work opportunity.",
+    "variants": {
+      "PreparationFocusSkill": {
+        "focus_label": "Skill preparation",
+        "next_steps": [
+          "Identify the core skill missing from the target opportunity",
+          "Complete one beginner learning resource for that skill",
+          "Create one small project that demonstrates the skill"
+        ]
+      },
+      "PreparationFocusInternship": {
+        "focus_label": "Internship preparation",
+        "next_steps": [
+          "Prepare a CV that highlights relevant skills and projects",
+          "Improve or create one portfolio project",
+          "Apply to internships, traineeships, or suitable entry-level opportunities"
+        ]
+      }
+    },
+    "limitation_note": "The system distinguishes project evidence from professional experience."
+  },
+  "RecommendMastersPreparation": {
+    "title": "Master's Preparation",
+    "summary": "Your current preference supports preparing for a master's degree path.",
+    "next_steps": [
+      "Shortlist programs that match the selected field",
+      "Check academic, language, and document requirements",
+      "Prepare the required documents and application schedule"
+    ],
+    "limitation_note": "Program-specific eligibility must still be checked against official requirements."
+  },
+  "RecommendScholarshipPreparation": {
+    "title": "Scholarship Preparation",
+    "summary": "Your study goal requires a funding path, so scholarship preparation is prioritized.",
+    "next_steps": [
+      "Shortlist scholarships that support the selected study goal",
+      "Check academic, language, and document requirements",
+      "Prepare evidence, essays, and recommendation documents"
+    ],
+    "limitation_note": "This recommendation does not estimate the probability of receiving a scholarship."
+  },
+  "RecommendCareerExploration": {
+    "title": "Career Exploration",
+    "summary": "Your career direction needs to be clarified before selecting a specific opportunity path.",
+    "next_steps": [
+      "Choose two fields that currently interest you",
+      "Try one small introductory project or learning activity in each field",
+      "Compare the activities and select a goal for the next assessment"
+    ],
+    "limitation_note": "The system needs a clearer goal before it can provide a specific opportunity recommendation."
+  },
+  "supporting_actions": {
+    "RecommendStudyAsParallelPlan": "Keep further-study preparation as a parallel plan while prioritizing near-term income.",
+    "RecommendPortfolioImprovement": "Improve the existing project and align its description with the target opportunity."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "project": "ArahKita",
+    "record_owner": "Qiara",
+    "verified_date": "2026-09-27",
+    "scope_note": "These records are simplified from official sources for prototype matching. Users must recheck the official page before applying."
+  },
+  "opportunities": [
+    {
+      "id": "JOB-01",
+      "name": "IT Engineer BCA",
+      "provider": "PT Bank Central Asia Tbk",
+      "category": "Job",
+      "target_goals": ["Software/IT"],
+      "education_status_required": "Bachelor degree",
+      "minimum_gpa": 2.75,
+      "accepted_major_groups": [
+        "Information Technology",
+        "Information Systems",
+        "Computer Engineering",
+        "Statistics",
+        "Physics",
+        "Mathematics",
+        "Industrial Engineering",
+        "Mechanical Engineering",
+        "Electrical Engineering"
+      ],
+      "required_skills": [],
+      "preferred_experience": "IT work experience is an advantage",
+      "other_requirements": [
+        "Basic knowledge and interest in IT"
+      ],
+      "application_period": "18 October 2025 - 23 December 2026",
+      "source_url": "https://karir.bca.co.id/candidate/id/career/it-engineer",
+      "source_type": "Official BCA careers page",
+      "prototype_note": "Requirements without a corresponding user input are displayed as items that must be checked manually."
+    },
+    {
+      "id": "MASTER-01",
+      "name": "Magister Kecerdasan Artifisial UGM",
+      "provider": "Universitas Gadjah Mada",
+      "category": "Master's Program",
+      "target_goals": ["Data Scientist", "Researcher", "Software/IT"],
+      "education_status_required": "Completed bachelor degree or equivalent",
+      "minimum_gpa": null,
+      "accepted_major_groups": [
+        "A relevant or related accredited bachelor program, subject to program approval"
+      ],
+      "required_skills": [],
+      "required_documents": [
+        "Bachelor degree certificate",
+        "Academic transcript",
+        "Accreditation evidence",
+        "Valid academic potential test certificate",
+        "Valid English proficiency certificate",
+        "Study projection or statement of purpose",
+        "Two recommendations",
+        "Research proposal or other program-specific document when required"
+      ],
+      "application_period": "Batch 2: 29 September - 20 October 2026; later batches are also listed by the program",
+      "source_url": "https://dcse.fmipa.ugm.ac.id/mka/mka-prosedur/",
+      "source_type": "Official UGM department admissions page",
+      "prototype_note": "The prototype checks education status, English certificate, and document readiness. Program-specific approval remains a manual check."
+    },
+    {
+      "id": "SCHOLARSHIP-01",
+      "name": "Beasiswa LPDP STEM Industri Strategis 2026 - Magister",
+      "provider": "Lembaga Pengelola Dana Pendidikan",
+      "category": "Scholarship",
+      "target_goals": ["Data Scientist", "Researcher", "Software/IT"],
+      "education_status_required": "Completed D4 or bachelor degree for master's funding",
+      "minimum_gpa": 3.0,
+      "maximum_age": 35,
+      "required_skills": [],
+      "required_documents": [
+        "Academic transcript",
+        "Valid English proficiency certificate",
+        "Documents required in the LPDP application system"
+      ],
+      "language_requirement_summary": "For a domestic master's under the general criteria, examples include TOEFL ITP 500, TOEFL iBT 61, PTE Academic 50, IELTS 6.0, Duolingo English Test 105, or TOEP 500. Other applicant categories may have different rules.",
+      "funding_duration": "Master's funding up to 24 months",
+      "source_url": "https://lpdp.kemenkeu.go.id/beasiswa/beasiswa-stem-industri-strategis/industri-strategis/",
+      "source_type": "Official LPDP scholarship page",
+      "prototype_note": "The prototype stores a simplified subset of the general master's requirements. Applicant category and destination-specific rules must be checked on the official page."
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+[
+  {
+    "persona": "Persona 1 — Skill Preparation",
+    "result": {
+      "primary_recommendation_key": "RecommendWorkPreparation",
+      "primary_recommendation": "Internship or Skill Preparation",
+      "preparation_focus": "skill",
+      "preparation_focus_label": "Skill preparation",
+      "summary": "You need a focused preparation step before pursuing the main work opportunity.",
+      "reasons": [
+        "The user does not currently want to pursue further study.",
+        "The user needs to strengthen basic data and technology skills before pursuing the main work opportunity.",
+        "The preparation recommendation focuses on strengthening basic data and technology skills."
+      ],
+      "next_steps": [
+        "Identify the core skill missing from the target opportunity",
+        "Complete one beginner learning resource for that skill",
+        "Create one small project that demonstrates the skill"
+      ],
+      "supporting_actions": [],
+      "limitation_note": "The system distinguishes project evidence from professional experience.",
+      "initial_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "GoalDataAnalyst",
+        "HasClearCareerGoal",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "IsFreshGraduate",
+        "LacksBasicDataTechSkills"
+      ],
+      "derived_facts": [
+        "PreparationFocusSkill",
+        "PrioritizeCareerPath",
+        "RecommendWorkPreparation"
+      ],
+      "final_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "GoalDataAnalyst",
+        "HasClearCareerGoal",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "IsFreshGraduate",
+        "LacksBasicDataTechSkills",
+        "PreparationFocusSkill",
+        "PrioritizeCareerPath",
+        "RecommendWorkPreparation"
+      ],
+      "fired_rules": [
+        "R03",
+        "R05",
+        "R06"
+      ],
+      "inference_trace": [
+        {
+          "iteration": 1,
+          "rule_id": "R03",
+          "antecedents": [
+            "HasClearCareerGoal",
+            "DoesNotWantFurtherStudy"
+          ],
+          "conclusion": "PrioritizeCareerPath",
+          "explanation": "The user does not currently want to pursue further study."
+        },
+        {
+          "iteration": 2,
+          "rule_id": "R05",
+          "antecedents": [
+            "PrioritizeCareerPath",
+            "LacksBasicDataTechSkills"
+          ],
+          "conclusion": "RecommendWorkPreparation",
+          "explanation": "The user needs to strengthen basic data and technology skills before pursuing the main work opportunity."
+        },
+        {
+          "iteration": 3,
+          "rule_id": "R06",
+          "antecedents": [
+            "RecommendWorkPreparation",
+            "LacksBasicDataTechSkills"
+          ],
+          "conclusion": "PreparationFocusSkill",
+          "explanation": "The preparation recommendation focuses on strengthening basic data and technology skills."
+        }
+      ],
+      "matched_opportunity_ids": [
+        "DUMMY-JOB-01",
+        "DUMMY-INT-01",
+        "DUMMY-CERT-01"
+      ],
+      "matched_opportunities": [
+        {
+          "id": "DUMMY-JOB-01",
+          "name": "Junior Data Analyst — Demo Role",
+          "provider": "ArahKita Demo Company",
+          "category": "Job",
+          "status": "Preparation needed",
+          "missing_requirements": [
+            "Skill: SQL"
+          ],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Prototype only — no real application period",
+          "source_url": ""
+        },
+        {
+          "id": "DUMMY-INT-01",
+          "name": "Data Analyst Internship — Demo Program",
+          "provider": "ArahKita Demo Lab",
+          "category": "Internship",
+          "status": "Preparation needed",
+          "missing_requirements": [
+            "Skill: Python"
+          ],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Prototype only — no real application period",
+          "source_url": ""
+        },
+        {
+          "id": "DUMMY-CERT-01",
+          "name": "Data & Technology Foundation — Demo Learning Program",
+          "provider": "ArahKita Demo Academy",
+          "category": "Certification",
+          "status": "Potential match",
+          "missing_requirements": [],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Prototype only — no real application period",
+          "source_url": ""
+        }
+      ],
+      "missing_requirements": [
+        "Skill: SQL",
+        "Skill: Python"
+      ],
+      "fixed_point_reached": true
+    }
+  },
+  {
+    "persona": "Persona 2 — Internship Preparation",
+    "result": {
+      "primary_recommendation_key": "RecommendWorkPreparation",
+      "primary_recommendation": "Internship or Skill Preparation",
+      "preparation_focus": "internship",
+      "preparation_focus_label": "Internship preparation",
+      "summary": "You need a focused preparation step before pursuing the main work opportunity.",
+      "reasons": [
+        "The user does not currently want to pursue further study.",
+        "The user has basic skills but still needs professional experience.",
+        "The preparation recommendation focuses on gaining internship or equivalent professional experience."
+      ],
+      "next_steps": [
+        "Prepare a CV that highlights relevant skills and projects",
+        "Improve or create one portfolio project",
+        "Apply to internships, traineeships, or suitable entry-level opportunities"
+      ],
+      "supporting_actions": [],
+      "limitation_note": "The system distinguishes project evidence from professional experience.",
+      "initial_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "GoalDataAnalyst",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate"
+      ],
+      "derived_facts": [
+        "PreparationFocusInternship",
+        "PrioritizeCareerPath",
+        "RecommendWorkPreparation"
+      ],
+      "final_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "GoalDataAnalyst",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate",
+        "PreparationFocusInternship",
+        "PrioritizeCareerPath",
+        "RecommendWorkPreparation"
+      ],
+      "fired_rules": [
+        "R03",
+        "R07",
+        "R08"
+      ],
+      "inference_trace": [
+        {
+          "iteration": 1,
+          "rule_id": "R03",
+          "antecedents": [
+            "HasClearCareerGoal",
+            "DoesNotWantFurtherStudy"
+          ],
+          "conclusion": "PrioritizeCareerPath",
+          "explanation": "The user does not currently want to pursue further study."
+        },
+        {
+          "iteration": 2,
+          "rule_id": "R07",
+          "antecedents": [
+            "PrioritizeCareerPath",
+            "HasBasicDataTechSkills",
+            "HasNoProfessionalExperience"
+          ],
+          "conclusion": "RecommendWorkPreparation",
+          "explanation": "The user has basic skills but still needs professional experience."
+        },
+        {
+          "iteration": 3,
+          "rule_id": "R08",
+          "antecedents": [
+            "RecommendWorkPreparation",
+            "HasBasicDataTechSkills",
+            "HasNoProfessionalExperience"
+          ],
+          "conclusion": "PreparationFocusInternship",
+          "explanation": "The preparation recommendation focuses on gaining internship or equivalent professional experience."
+        }
+      ],
+      "matched_opportunity_ids": [
+        "DUMMY-JOB-01",
+        "DUMMY-INT-01",
+        "DUMMY-CERT-01"
+      ],
+      "matched_opportunities": [
+        {
+          "id": "DUMMY-JOB-01",
+          "name": "Junior Data Analyst — Demo Role",
+          "provider": "ArahKita Demo Company",
+          "category": "Job",
+          "status": "Preparation needed",
+          "missing_requirements": [
+            "Skill: SQL"
+          ],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Prototype only — no real application period",
+          "source_url": ""
+        },
+        {
+          "id": "DUMMY-INT-01",
+          "name": "Data Analyst Internship — Demo Program",
+          "provider": "ArahKita Demo Lab",
+          "category": "Internship",
+          "status": "Potential match",
+          "missing_requirements": [],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Prototype only — no real application period",
+          "source_url": ""
+        },
+        {
+          "id": "DUMMY-CERT-01",
+          "name": "Data & Technology Foundation — Demo Learning Program",
+          "provider": "ArahKita Demo Academy",
+          "category": "Certification",
+          "status": "Potential match",
+          "missing_requirements": [],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Prototype only — no real application period",
+          "source_url": ""
+        }
+      ],
+      "missing_requirements": [
+        "Skill: SQL"
+      ],
+      "fixed_point_reached": true
+    }
+  },
+  {
+    "persona": "Persona 3 — Work Now",
+    "result": {
+      "primary_recommendation_key": "RecommendWorkNow",
+      "primary_recommendation": "Work Now",
+      "preparation_focus": null,
+      "preparation_focus_label": null,
+      "summary": "Your profile is ready enough to begin targeting entry-level opportunities.",
+      "reasons": [
+        "The user does not currently want to pursue further study.",
+        "The user has a clear goal, basic skills, and initial professional experience."
+      ],
+      "next_steps": [
+        "Adjust your CV to the selected career goal",
+        "Compare your profile with the requirements of the selected opportunity",
+        "Submit applications to relevant entry-level roles"
+      ],
+      "supporting_actions": [],
+      "limitation_note": "This recommendation indicates readiness to start applying and does not guarantee acceptance.",
+      "initial_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "GoalSoftwareIT",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate"
+      ],
+      "derived_facts": [
+        "PrioritizeCareerPath",
+        "RecommendWorkNow"
+      ],
+      "final_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "GoalSoftwareIT",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate",
+        "PrioritizeCareerPath",
+        "RecommendWorkNow"
+      ],
+      "fired_rules": [
+        "R03",
+        "R09"
+      ],
+      "inference_trace": [
+        {
+          "iteration": 1,
+          "rule_id": "R03",
+          "antecedents": [
+            "HasClearCareerGoal",
+            "DoesNotWantFurtherStudy"
+          ],
+          "conclusion": "PrioritizeCareerPath",
+          "explanation": "The user does not currently want to pursue further study."
+        },
+        {
+          "iteration": 2,
+          "rule_id": "R09",
+          "antecedents": [
+            "PrioritizeCareerPath",
+            "HasBasicDataTechSkills",
+            "HasProfessionalExperience"
+          ],
+          "conclusion": "RecommendWorkNow",
+          "explanation": "The user has a clear goal, basic skills, and initial professional experience."
+        }
+      ],
+      "matched_opportunity_ids": [
+        "JOB-01"
+      ],
+      "matched_opportunities": [
+        {
+          "id": "JOB-01",
+          "name": "IT Engineer BCA",
+          "provider": "PT Bank Central Asia Tbk",
+          "category": "Job",
+          "status": "Potential match",
+          "missing_requirements": [],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page",
+            "Basic knowledge and interest in IT"
+          ],
+          "application_period": "18 October 2025 - 23 December 2026",
+          "source_url": "https://karir.bca.co.id/candidate/id/career/it-engineer"
+        }
+      ],
+      "missing_requirements": [],
+      "fixed_point_reached": true
+    }
+  },
+  {
+    "persona": "Persona 4 — Master’s Preparation",
+    "result": {
+      "primary_recommendation_key": "RecommendMastersPreparation",
+      "primary_recommendation": "Master's Preparation",
+      "preparation_focus": null,
+      "preparation_focus_label": null,
+      "summary": "Your current preference supports preparing for a master's degree path.",
+      "reasons": [
+        "The user wants further study and can focus on academic and application preparation."
+      ],
+      "next_steps": [
+        "Shortlist programs that match the selected field",
+        "Check academic, language, and document requirements",
+        "Prepare the required documents and application schedule"
+      ],
+      "supporting_actions": [],
+      "limitation_note": "Program-specific eligibility must still be checked against official requirements.",
+      "initial_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotNeedStudyFunding",
+        "GoalResearcher",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasEnglishCertificate",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate",
+        "WantsFurtherStudy"
+      ],
+      "derived_facts": [
+        "RecommendMastersPreparation"
+      ],
+      "final_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotNeedStudyFunding",
+        "GoalResearcher",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasEnglishCertificate",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate",
+        "RecommendMastersPreparation",
+        "WantsFurtherStudy"
+      ],
+      "fired_rules": [
+        "R11"
+      ],
+      "inference_trace": [
+        {
+          "iteration": 1,
+          "rule_id": "R11",
+          "antecedents": [
+            "HasClearCareerGoal",
+            "WantsFurtherStudy",
+            "DoesNotNeedIncomeSoon",
+            "DoesNotNeedStudyFunding"
+          ],
+          "conclusion": "RecommendMastersPreparation",
+          "explanation": "The user wants further study and can focus on academic and application preparation."
+        }
+      ],
+      "matched_opportunity_ids": [
+        "MASTER-01"
+      ],
+      "matched_opportunities": [
+        {
+          "id": "MASTER-01",
+          "name": "Magister Kecerdasan Artifisial UGM",
+          "provider": "Universitas Gadjah Mada",
+          "category": "Master's Program",
+          "status": "Potential match",
+          "missing_requirements": [],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Batch 2: 29 September - 20 October 2026; later batches are also listed by the program",
+          "source_url": "https://dcse.fmipa.ugm.ac.id/mka/mka-prosedur/"
+        }
+      ],
+      "missing_requirements": [],
+      "fixed_point_reached": true
+    }
+  },
+  {
+    "persona": "Persona 5 — Scholarship Preparation",
+    "result": {
+      "primary_recommendation_key": "RecommendScholarshipPreparation",
+      "primary_recommendation": "Scholarship Preparation",
+      "preparation_focus": null,
+      "preparation_focus_label": null,
+      "summary": "Your study goal requires a funding path, so scholarship preparation is prioritized.",
+      "reasons": [
+        "The user wants further study and requires a funding path."
+      ],
+      "next_steps": [
+        "Shortlist scholarships that support the selected study goal",
+        "Check academic, language, and document requirements",
+        "Prepare evidence, essays, and recommendation documents"
+      ],
+      "supporting_actions": [],
+      "limitation_note": "This recommendation does not estimate the probability of receiving a scholarship.",
+      "initial_facts": [
+        "DoesNotNeedIncomeSoon",
+        "GoalDataScientist",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasEnglishCertificate",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate",
+        "NeedsStudyFunding",
+        "WantsFurtherStudy"
+      ],
+      "derived_facts": [
+        "RecommendScholarshipPreparation"
+      ],
+      "final_facts": [
+        "DoesNotNeedIncomeSoon",
+        "GoalDataScientist",
+        "HasBasicDataTechSkills",
+        "HasClearCareerGoal",
+        "HasEnglishCertificate",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasSkill_Python",
+        "IsFreshGraduate",
+        "NeedsStudyFunding",
+        "RecommendScholarshipPreparation",
+        "WantsFurtherStudy"
+      ],
+      "fired_rules": [
+        "R10"
+      ],
+      "inference_trace": [
+        {
+          "iteration": 1,
+          "rule_id": "R10",
+          "antecedents": [
+            "HasClearCareerGoal",
+            "WantsFurtherStudy",
+            "DoesNotNeedIncomeSoon",
+            "NeedsStudyFunding"
+          ],
+          "conclusion": "RecommendScholarshipPreparation",
+          "explanation": "The user wants further study and requires a funding path."
+        }
+      ],
+      "matched_opportunity_ids": [
+        "SCHOLARSHIP-01"
+      ],
+      "matched_opportunities": [
+        {
+          "id": "SCHOLARSHIP-01",
+          "name": "Beasiswa LPDP STEM Industri Strategis 2026 - Magister",
+          "provider": "Lembaga Pengelola Dana Pendidikan",
+          "category": "Scholarship",
+          "status": "Potential match",
+          "missing_requirements": [],
+          "manual_checks": [],
+          "application_period": null,
+          "source_url": "https://lpdp.kemenkeu.go.id/beasiswa/beasiswa-stem-industri-strategis/industri-strategis/"
+        }
+      ],
+      "missing_requirements": [],
+      "fixed_point_reached": true
+    }
+  },
+  {
+    "persona": "Persona 6 — Career Exploration",
+    "result": {
+      "primary_recommendation_key": "RecommendCareerExploration",
+      "primary_recommendation": "Career Exploration",
+      "preparation_focus": null,
+      "preparation_focus_label": null,
+      "summary": "Your career direction needs to be clarified before selecting a specific opportunity path.",
+      "reasons": [
+        "Career goal is not clear enough to select a specific path."
+      ],
+      "next_steps": [
+        "Choose two fields that currently interest you",
+        "Try one small introductory project or learning activity in each field",
+        "Compare the activities and select a goal for the next assessment"
+      ],
+      "supporting_actions": [],
+      "limitation_note": "The system needs a clearer goal before it can provide a specific opportunity recommendation.",
+      "initial_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasUnclearCareerGoal",
+        "IsFreshGraduate",
+        "LacksBasicDataTechSkills"
+      ],
+      "derived_facts": [
+        "RecommendCareerExploration"
+      ],
+      "final_facts": [
+        "DoesNotNeedIncomeSoon",
+        "DoesNotWantFurtherStudy",
+        "HasNoProfessionalExperience",
+        "HasSTEMBackground",
+        "HasSkill_Excel",
+        "HasUnclearCareerGoal",
+        "IsFreshGraduate",
+        "LacksBasicDataTechSkills",
+        "RecommendCareerExploration"
+      ],
+      "fired_rules": [
+        "R01"
+      ],
+      "inference_trace": [
+        {
+          "iteration": 1,
+          "rule_id": "R01",
+          "antecedents": [
+            "HasUnclearCareerGoal"
+          ],
+          "conclusion": "RecommendCareerExploration",
+          "explanation": "Career goal is not clear enough to select a specific path."
+        }
+      ],
+      "matched_opportunity_ids": [
+        "DUMMY-CERT-01"
+      ],
+      "matched_opportunities": [
+        {
+          "id": "DUMMY-CERT-01",
+          "name": "Data & Technology Foundation — Demo Learning Program",
+          "provider": "ArahKita Demo Academy",
+          "category": "Certification",
+          "status": "Potential match",
+          "missing_requirements": [],
+          "manual_checks": [
+            "Check detailed major eligibility on the official page"
+          ],
+          "application_period": "Prototype only — no real application period",
+          "source_url": ""
+        }
+      ],
+      "missing_requirements": [],
+      "fixed_point_reached": true
+    }
+  }
+]

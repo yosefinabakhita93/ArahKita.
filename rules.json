@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "project": "ArahKita",
+    "algorithm": "forward_chaining",
+    "version": "1.2",
+    "basic_skill_threshold": 2,
+    "basic_skill_pool": [
+      "Excel",
+      "Python",
+      "SQL",
+      "Statistics",
+      "Data Visualization"
+    ]
+  },
+  "rules": [
+    {
+      "id": "R01",
+      "antecedents": ["HasUnclearCareerGoal"],
+      "conclusions": ["RecommendCareerExploration"],
+      "explanation": "Career goal is not clear enough to select a specific path."
+    },
+    {
+      "id": "R02",
+      "antecedents": ["HasClearCareerGoal", "NeedsIncomeSoon"],
+      "conclusions": ["PrioritizeCareerPath"],
+      "explanation": "The user needs income soon, so a career path is prioritized."
+    },
+    {
+      "id": "R03",
+      "antecedents": ["HasClearCareerGoal", "DoesNotWantFurtherStudy"],
+      "conclusions": ["PrioritizeCareerPath"],
+      "explanation": "The user does not currently want to pursue further study."
+    },
+    {
+      "id": "R04",
+      "antecedents": ["HasClearCareerGoal", "IsUnsureAboutFurtherStudy"],
+      "conclusions": ["PrioritizeCareerPath"],
+      "explanation": "The user is unsure about further study, so an actionable career step is prioritized."
+    },
+    {
+      "id": "R05",
+      "antecedents": ["PrioritizeCareerPath", "LacksBasicDataTechSkills"],
+      "conclusions": ["RecommendWorkPreparation"],
+      "explanation": "The user needs to strengthen basic data and technology skills before pursuing the main work opportunity."
+    },
+    {
+      "id": "R06",
+      "antecedents": ["RecommendWorkPreparation", "LacksBasicDataTechSkills"],
+      "conclusions": ["PreparationFocusSkill"],
+      "explanation": "The preparation recommendation focuses on strengthening basic data and technology skills."
+    },
+    {
+      "id": "R07",
+      "antecedents": ["PrioritizeCareerPath", "HasBasicDataTechSkills", "HasNoProfessionalExperience"],
+      "conclusions": ["RecommendWorkPreparation"],
+      "explanation": "The user has basic skills but still needs professional experience."
+    },
+    {
+      "id": "R08",
+      "antecedents": ["RecommendWorkPreparation", "HasBasicDataTechSkills", "HasNoProfessionalExperience"],
+      "conclusions": ["PreparationFocusInternship"],
+      "explanation": "The preparation recommendation focuses on gaining internship or equivalent professional experience."
+    },
+    {
+      "id": "R09",
+      "antecedents": ["PrioritizeCareerPath", "HasBasicDataTechSkills", "HasProfessionalExperience"],
+      "conclusions": ["RecommendWorkNow"],
+      "explanation": "The user has a clear goal, basic skills, and initial professional experience."
+    },
+    {
+      "id": "R10",
+      "antecedents": ["HasClearCareerGoal", "WantsFurtherStudy", "DoesNotNeedIncomeSoon", "NeedsStudyFunding"],
+      "conclusions": ["RecommendScholarshipPreparation"],
+      "explanation": "The user wants further study and requires a funding path."
+    },
+    {
+      "id": "R11",
+      "antecedents": ["HasClearCareerGoal", "WantsFurtherStudy", "DoesNotNeedIncomeSoon", "DoesNotNeedStudyFunding"],
+      "conclusions": ["RecommendMastersPreparation"],
+      "explanation": "The user wants further study and can focus on academic and application preparation."
+    },
+    {
+      "id": "R12",
+      "antecedents": ["WantsFurtherStudy", "NeedsIncomeSoon"],
+      "conclusions": ["RecommendStudyAsParallelPlan"],
+      "explanation": "Further study remains a parallel plan while near-term income is prioritized."
+    },
+    {
+      "id": "R13",
+      "antecedents": ["HasProjectExperience"],
+      "conclusions": ["HasPortfolioEvidence"],
+      "explanation": "A completed project provides evidence of applied skills but is not treated as professional experience."
+    },
+    {
+      "id": "R14",
+      "antecedents": ["RecommendWorkPreparation", "HasPortfolioEvidence"],
+      "conclusions": ["RecommendPortfolioImprovement"],
+      "explanation": "The existing project can be improved and aligned with the target opportunity."
+    },
+    {
+      "id": "R15",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersDataAnalysis"],
+      "conclusions": ["SuggestedDataAnalyst"],
+      "explanation": "Interest in data processing and dashboards supports Data Analyst as the first exploration path."
+    },
+    {
+      "id": "R16",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersPredictiveModeling"],
+      "conclusions": ["SuggestedDataScientist"],
+      "explanation": "Interest in predictive modeling supports Data Scientist as the first exploration path."
+    },
+    {
+      "id": "R17",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersSoftwareBuilding"],
+      "conclusions": ["SuggestedSoftwareIT"],
+      "explanation": "Interest in building applications or systems supports Software or IT as the first exploration path."
+    },
+    {
+      "id": "R18",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersResearchActivity"],
+      "conclusions": ["SuggestedResearcher"],
+      "explanation": "Interest in experiments and research supports Researcher as the first exploration path."
+    },
+    {
+      "id": "R19",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersBioinformatics"],
+      "conclusions": ["SuggestedBioinformaticsAnalyst"],
+      "explanation": "Interest in biological or genomic data supports Bioinformatics Analyst as the first exploration path."
+    },
+    {
+      "id": "R20",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersClinicalResearch"],
+      "conclusions": ["SuggestedClinicalResearch"],
+      "explanation": "Interest in clinical studies and patient data supports Clinical Research as the first exploration path."
+    },
+    {
+      "id": "R21",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersQualityRegulatory"],
+      "conclusions": ["SuggestedQualityRegulatory"],
+      "explanation": "Interest in quality and compliance supports Quality Assurance or Regulatory Affairs as the first exploration path."
+    },
+    {
+      "id": "R22",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersHealthProduct"],
+      "conclusions": ["SuggestedHealthProduct"],
+      "explanation": "Interest in designing health services supports Health Product or Business Analysis as the first exploration path."
+    },
+    {
+      "id": "R23",
+      "antecedents": ["HasUnclearCareerGoal", "PrefersScienceCommunication"],
+      "conclusions": ["SuggestedScienceCommunication"],
+      "explanation": "Interest in explaining science supports Medical Writing or Science Communication as the first exploration path."
+    }
+  ]
+}
