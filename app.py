@@ -243,7 +243,7 @@ st.markdown(
 )
 
 
-opportunities_path = ROOT / "data" / "opportunities.json"
+opportunities_path = ROOT / "opportunities.json"
 
 if opportunities_path.exists():
     opportunities = read_json(opportunities_path)["opportunities"]
